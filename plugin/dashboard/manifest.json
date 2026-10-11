@@ -1,0 +1,15 @@
+{
+  "name": "pixel-office",
+  "label": "Operator Office",
+  "description": "Operator Agent Office: pixel-art control plane over Hermes (pixel-agents MIT renderer). Rooms, room-scoped Kanban boards, task inspector (events, runs, logs, artifacts), bound approvals (Kanban gates + governed-lane gates), governed lanes with independent QA review and disabled execution adapters, 9-room floor plan + layout, incidents, live event stream with replay. Client Work board (settings clientBoards) is an operator board with full content for authenticated operator requests, surfaced with a CONFIDENTIAL badge. Hermes Kanban stays authoritative.",
+  "icon": "Sparkles",
+  "version": "1.4.1",
+  "tab": {
+    "path": "/pixel-office",
+    "position": "after:workspace-office"
+  },
+  "entry": "dist/index.js?v=1.4.1",
+  "css": "dist/style.css?v=1.4.1",
+  "api": "plugin_api.py",
+  "sdk_version": "1.1.0"
+}

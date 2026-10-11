@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist-build/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Runtime state (never check in)
+state/
+runtime/
+*.log
+*.sqlite
+*.sqlite-journal
+
+# Local secrets
+.env
+.env.*
+!.env.example
+secrets/
